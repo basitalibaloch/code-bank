@@ -8,7 +8,7 @@ public class StatisticsDisplay implements Observer, DisplayElement {
 	private float tempSum= 0.0f;
 	private int numReadings;
 	private WeatherData weatherData;
-
+// braonchig dev ready 
 	public StatisticsDisplay(WeatherData weatherData) {
 		this.weatherData = weatherData;
 		weatherData.registerObserver(this);

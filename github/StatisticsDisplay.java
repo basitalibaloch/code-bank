@@ -1,5 +1,7 @@
 package headfirst.designpatterns.observer.weather;
 
+// hi this istesting for my files to be uploaded later.
+
 public class StatisticsDisplay implements Observer, DisplayElement {
 	private float maxTemp = 0.0f;
 	private float minTemp = 200;
